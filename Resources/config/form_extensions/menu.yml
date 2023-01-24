@@ -8,6 +8,7 @@ extensions:
         config:
             title: pim_menu.tab.reference_data
             iconModifier: iconSettings
+            icon: SettingsIcon
 
     pim-menu-reference_data-column:
         module: pim/menu/column
@@ -18,6 +19,7 @@ extensions:
             stateCode: pim-menu-reference_data
             tab: pim-menu-reference_data
             navigationTitle: pim_menu.navigation.reference_data
+            collapsedModifier: AknColumn--firstColumn
 
     pim-menu-reference_data-navigation-block:
         module: pim/menu/navigation-block
